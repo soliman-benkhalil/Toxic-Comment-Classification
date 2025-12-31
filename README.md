@@ -27,7 +27,7 @@ This project tackles the challenge of identifying toxic online comments across m
 
 ## 📊 Dataset
 
-**Source:** [Jigsaw Toxic Comment Classification Challenge](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge)
+**Source:** [Jigsaw Toxic Comment Classification Challenge](https://www.kaggle.com/datasets/julian3833/jigsaw-toxic-comment-classification-challenge)
 
 **Statistics:**
 - Total comments: ~160,000
@@ -281,10 +281,6 @@ test_loss, test_accuracy = nn_model.evaluate(X_test, y_test)
    - Grid search for optimal architecture
    - Learning rate scheduling experiments
    - Regularization tuning
-
-## 📝 License
-
-This project uses the [Jigsaw dataset](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge) under Kaggle's competition terms.
 
 ## 🤝 Contributing
 
