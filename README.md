@@ -16,7 +16,7 @@ A comprehensive machine learning solution for detecting toxic comments using the
 - [Usage](#usage)
 - [Future Work](#future-work)
 
-## 🎯 Overview
+## Overview
 
 This project tackles the challenge of identifying toxic online comments across multiple categories (toxic, severe_toxic, obscene, threat, insult, identity_hate). The implementation focuses on:
 
@@ -25,7 +25,7 @@ This project tackles the challenge of identifying toxic online comments across m
 - **Class balancing** to address severe dataset imbalance
 - **Neural network architecture** optimized for binary classification
 
-## 📊 Dataset
+## Dataset
 
 **Source:** [Jigsaw Toxic Comment Classification Challenge](https://www.kaggle.com/datasets/julian3833/jigsaw-toxic-comment-classification-challenge)
 
@@ -43,7 +43,7 @@ This project tackles the challenge of identifying toxic online comments across m
 5. Identity Hate: 1,405 (0.9%)
 6. Threat: 478 (0.3%)
 
-## ✨ Features
+## Features
 
 ### 1. Exploratory Data Analysis
 - **Distribution Analysis**: Visual representation of toxic vs non-toxic comments
@@ -66,7 +66,7 @@ Advanced text cleaning pipeline (see details below)
 - Stratified train-test split
 - Balanced dataset: 50/50 toxic/non-toxic ratio
 
-## 🧹 Text Preprocessing Pipeline
+## Text Preprocessing Pipeline
 
 The cleaning function applies **9 sophisticated preprocessing steps**:
 
@@ -163,7 +163,7 @@ words = [
 - Removes noise that doesn't contribute to toxicity detection
 - Normalizes variations of the same semantic meaning
 
-## 🏗️ Model Architecture
+## Model Architecture
 
 ### Bag-of-Words Representation
 - **Vectorizer**: `CountVectorizer`
@@ -209,7 +209,7 @@ Dense(1) + Sigmoid
 
 The model achieved **88.4% validation accuracy by epoch 4**, with early stopping preventing overfitting.
 
-## 🛠️ Installation
+## Installation
 
 ### Requirements
 ```bash
@@ -224,7 +224,7 @@ nltk.download('wordnet')
 nltk.download('omw-1.4')
 ```
 
-## 🚀 Usage
+## Usage
 
 ### 1. Load and Explore Data
 ```python
@@ -253,7 +253,7 @@ history = nn_model.fit(X_train, y_train, ...)
 test_loss, test_accuracy = nn_model.evaluate(X_test, y_test)
 ```
 
-## 🔮 Future Work
+## Future Work
 
 ### Planned Enhancements
 1. **sklearn vs Keras Preprocessing Comparison**
