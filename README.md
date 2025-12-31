@@ -192,7 +192,7 @@ Dense(1) + Sigmoid
   - Early Stopping (patience=5)
   - ReduceLROnPlateau (factor=0.5, patience=3)
 
-## 📈 Results
+## Results
 
 ### Performance Metrics
 - **Test Accuracy**: 87.37%
