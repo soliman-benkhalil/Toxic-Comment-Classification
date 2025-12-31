@@ -1,6 +1,3 @@
-# Toxic-Comment-Classification
-
-
 # Toxic Comment Classification Challenge
 
 A comprehensive machine learning solution for detecting toxic comments using the Jigsaw Toxic Comment Classification dataset. This project emphasizes thorough exploratory data analysis, advanced text preprocessing, and neural network-based binary classification.
